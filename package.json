@@ -1,0 +1,38 @@
+{
+  "name": "@mnpjs/splendid",
+  "version": "1.0.0",
+  "description": "The Splendid Static Website Structure.",
+  "scripts": {
+    "test": "zoroaster test/spec",
+    "test-watch": "zoroaster test/spec --watch",
+    "prepublishOnly": "node scripts/prepublishOnly",
+    "postinstall": "node scripts/postinstall",
+    "postpublish": "node scripts/postpublish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mnpjs/splendid.git"
+  },
+  "mnp": {
+    "onCreate": "scripts/mkdir.js"
+  },
+  "files": [
+    "index.js",
+    "structure",
+    "scripts"
+  ],
+  "keywords": [
+    "splendid",
+    "mnpjs"
+  ],
+  "author": "Anton <anton@adc.sh>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnpjs/splendid/issues"
+  },
+  "homepage": "https://github.com/mnpjs/splendid#readme",
+  "devDependencies": {
+    "eslint-config-artdeco": "1.0.0"
+  },
+  "dependencies": {}
+}
